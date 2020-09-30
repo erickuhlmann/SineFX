@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Button fx:id="soundButton" mnemonicParsing="false" onAction="#onSoundButtonAction" text="Sound" />
+      <Button fx:id="startButton" mnemonicParsing="false" onAction="#onStartButtonAction" text="Start" GridPane.rowIndex="1" />
+      <Button fx:id="stopButton" mnemonicParsing="false" onAction="#onStopButtonAction" text="Stop" GridPane.rowIndex="2" />
+   </children>
+</GridPane>
